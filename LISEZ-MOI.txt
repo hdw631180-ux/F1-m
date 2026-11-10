@@ -1,0 +1,8 @@
+Place ici tes images de monoplaces (PNG, fond transparent, vue de profil, voiture tournée vers la gauche), avec exactement ces noms :
+
+red-bull.png  racing-bulls.png  mercedes.png  ferrari.png  mclaren.png  aston-martin.png
+alpine.png  williams.png  haas.png  audi.png  cadillac.png
+
+Ensuite, dans index.html, change CAR_PHOTOS=false en CAR_PHOTOS=true. Le jeu utilise alors ces images.
+Sinon, il garde la monoplace aux couleurs de l'écurie.
+Utilise uniquement des images dont tu as les droits.
