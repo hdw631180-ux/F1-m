@@ -5,6 +5,10 @@ Jeu de management de Formule 1 dans le navigateur (HTML/CSS/JS, zéro build).
 ## Interface
 Dashboard sombre type F1 : barre latérale, progression de saison, cartes animées, confettis podium, sons optionnels.
 
+## Modes de jeu
+- **Mode Équipe** — Management classique : budget 120 M$, écurie complète, 2 pilotes.
+- **Mode Carrière** — Challenge plus serré : budget 90 M$, monoplace un peu moins aboutie au départ, progression plus exigeante.
+
 ## Fonctionnalités utiles ajoutées
 - Comparaison de ta voiture vs les rivaux
 - Historique des derniers GP (positions / points)
