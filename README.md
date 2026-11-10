@@ -16,23 +16,19 @@ Dashboard sombre type F1 : barre latérale, progression de saison, cartes animé
 - Raccourcis clavier : `G` = aller au GP, `1–5` = onglets QG
 - Légende pneus + tip composé
 
-## Améliorations de l'écran de course
-- Carte et classement côte à côte, avec tes pilotes sous la carte (plus d'espace perdu)
-- Fiche en direct par pilote : position, pneu et usure en %, écart avec la voiture devant et derrière
-- Allure en un clic (Attaque / Normal / Éco)
-- Meilleur tour en direct et dans les résultats
-- Notifications d'incident en bas de l'écran (elles ne cachent plus les boutons)
-- Classement constructeurs affiché « — » tant qu'aucun point n'est marqué
+## Contrôle du temps en course
+- **⏸ Pause / ▶ Reprendre** (bouton ou touche `Espace` / `P`) : fige la course et l'animation, tu peux régler allure / pneus / box pendant la pause.
+- Vitesses **×¼, ×½, ×1, ×4, ×16** (×¼ = un tour toutes les 2,8 s).
 
-## Visuel premium
-- Monoplace aux couleurs (livrée stylisée) de chaque écurie, avec entrée animée, flottement, reflets et traînées de vitesse
-- Légère inclinaison 3D de la voiture avec la souris
-- Cartes qui apparaissent en cascade, boutons principaux brillants, fond animé aux couleurs de l'écurie
-- Dans la course, la ligne d'un pilote clignote en vert ou en rouge quand il gagne ou perd une place
-- Animations désactivées automatiquement si ton système demande moins de mouvement
+## Fluidité (PC légers)
+- Suppression des effets coûteux (flou d'arrière-plan, bruit plein écran, animations infinies, ombres portées sur les voitures).
+- Course : positions des voitures précalculées sur le tracé, tableau de chronométrage mis à jour seulement quand il change, rafraîchissement limité aux vitesses rapides.
+- **Mode fluide** (case dans le QG, activé automatiquement sur les PC ≤ 4 cœurs / ≤ 4 Go) : coupe toutes les animations et particules.
 
-## Vraies photos de monoplaces (optionnel)
-Dépose tes images dans le dossier `cars/` (noms dans `cars/LISEZ-MOI.txt`), puis dans `index.html` change `const CAR_PHOTOS=false;` en `const CAR_PHOTOS=true;`. Par défaut c'est désactivé pour éviter des erreurs 404 dans la console.
+- Images de voitures décodées une seule fois (plus de rechargement à chaque écran), circuits réels chargés un par un en arrière-plan, course mise en pause automatiquement si tu changes d'onglet, détection automatique des PC lents (active le Mode fluide).
+
+## Voitures 2D
+Une photo détourée par écurie (vue de profil, fond transparent), intégrée dans `index.html` (aucun fichier externe).
 
 ## Publier sur GitHub Pages
 1. Envoie index.html, .nojekyll, README.md à la racine d’un dépôt.
